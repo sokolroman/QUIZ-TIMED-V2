@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Web Dev Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>THE WEB DEVELOPERS QUIZ</h1>
+        </div>
+        <div id="timeScore" class="headEl">
+            <P>Timer: <span id="time"></span></P>
+            <P>Score:<span id="score"></span></P>
+        </div>
+
+        <div id="question-container" class="hide">
+            <div id="questions">Questions</div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="button btnCss" id=btn1>Answer 1</button>
+                <button class="button btnCss" id=btn2>Answer 2</button>
+                <button class="button btnCss" id=btn3>Answer 3</button>
+                <button class="button btnCss" id=btn4>Answer 4</button>
+            </div>
+        </div>
+
+        <div id="gameControls">
+            <div id="rules">
+                <ul>
+                    <li>1 question right = 1 point</li>
+                    <li>minus 1 seconds on the timer if wrong</li>
+                    <li>You will have 10 seconds to beat the game...</li>
+                    <li>Ready? Set... Go!!</li>
+                </ul>
+
+            </div>
+            <button id="start" class="start-btn button is-rounded">Start</button>
+
+        </div>
+
+        <div id="initials" class="hide">
+            <div class="content">
+                <p id="initText">Enter your initials below and check the scoreboard!</p>
+            </div>
+            <div id="submitInit">
+                <input id="userInitials" class="input" type="text" placeholder="Initials">
+                <button class="button is-rounded " id=btnInitials>submit</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

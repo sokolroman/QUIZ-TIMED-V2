@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" type="text/css" href="./assets/css/score.css">
+    <title>scores</title>
+</head>
+<body>
+  <div class="container">
+
+  <nav class="navbar" role="navigation">
+          <div class="navbar-start">
+            <h1 id="logoText">
+              Scoreboard
+            </h1>
+            </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="index.html"  id="play"class="button">
+                  <strong>Play Again</strong>
+                </a>
+                <a id="clear" class="button">
+                  Clear Scores
+                </a>
+              </div>
+            </div>
+            <div class="container scores">
+            <table id="showTable" >
+              <thead>
+                  <tr>
+                      <th class="tableLeft">Initials</th>
+                      <th class="tableRight">Score</th>
+                  </tr>
+              </thead>
+              <tbody id="leaderTable">
+              </tbody>
+          </table>
+          </div>
+          </div>
+        </div>
+      </nav>
+</div>
+<script src="./assets/js/score.js"></script>
+</body>
+</html>
