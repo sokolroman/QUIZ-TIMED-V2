@@ -16,7 +16,7 @@ THEN I can save my initials and score
 
 ## Live Site:
 --- 
-[Github pages](https://sokolroman.github.io/TIMED-QUIZ-PROJECT/index.html)
+[Github pages](https://sokolroman.github.io/QUIZ-TIMED-V2/index.html)
 
 ## SCREENSHOTS:
 ---
