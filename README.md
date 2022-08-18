@@ -23,7 +23,8 @@ THEN I can save my initials and score
 <img src="assets/images/Screen Shot 2022-08-18 at 12.46.21.png" alt="Screenshot of quiz 1">
 <img src="assets/images/Screen Shot 2022-08-18 at 12.46.24.png" alt="Screenshot of quiz 2">
 <img src="assets/images/Screen Shot 2022-08-18 at 12.46.33.png" alt="Screenshot of quiz 3">
-##
+
+## Resources 
 ---
 I would like to thank my tutor, Sara Neves Pereira.
 I would also like to mention this codepen I found that uses the Commodore 64 theme, I used the colors and fonts. 
